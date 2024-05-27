@@ -1,0 +1,50 @@
+
+nav {
+  background-color: #333;
+  
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li select {
+  background-color: #333;
+  color: white;
+  padding: 12px 16px;
+  display: block;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+li select:focus {
+  outline: none;
+}
+
+li select option {
+  background-color: #333;
+  color: white;
+}
+
+.a{
+  color: white;
+  text-align: center;
+  
+}
+
+@media screen and (max-width: 600px) {
+  li {
+    width: 100%;
+    float: none;
+  }
+}
